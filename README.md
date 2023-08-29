@@ -71,9 +71,9 @@ yarn ios
 ## 자유게시판
 
 <div style="display: flex;">
-   <img src="https://user-images.githubusercontent.com/84447486/177533409-2e18c8f1-f067-438b-ba3b-543d6677eaee.jpg" width="300"  alt="자유게시판-목록" />
-   <img src="https://github.com/kjy9454/pokehunter/assets/84447486/3616b97d-8be2-46b1-aefb-b79ee4bcaa15" width="300"  alt="자유게시판-상세" />
-   <img src="https://github.com/kjy9454/pokehunter/assets/84447486/ded80364-3bfd-4c7a-bdea-5135cfd0a526" width="300"  alt="자유게시판-작성" />
+   <img src="https://user-images.githubusercontent.com/84447486/177533409-2e18c8f1-f067-438b-ba3b-543d6677eaee.jpg" width="200"  alt="자유게시판-목록" />
+   <img src="https://github.com/kjy9454/pokehunter/assets/84447486/3616b97d-8be2-46b1-aefb-b79ee4bcaa15" width="200"  alt="자유게시판-상세" />
+   <img src="https://github.com/kjy9454/pokehunter/assets/84447486/ded80364-3bfd-4c7a-bdea-5135cfd0a526" width="200"  alt="자유게시판-작성" />
 </div>
 
 > 게시글을 확인하고 작성할 수 있습니다.
