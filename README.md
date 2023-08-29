@@ -48,7 +48,7 @@ yarn ios
 
 ## 메인페이지
 
-![메인페이지](https://user-images.githubusercontent.com/84447486/177532561-8a6ff637-e2b6-4687-a582-253ad21fc6cf.jpg)
+<img src="https://user-images.githubusercontent.com/84447486/177532561-8a6ff637-e2b6-4687-a582-253ad21fc6cf.jpg" width="300" />
 
 > 사용자 주변의 포켓몬빵 재고를 표시합니다.
 
