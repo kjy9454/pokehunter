@@ -1,10 +1,12 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# pokehunter
 
-# Getting Started
+주변의 포켓몬 빵 재고를 확인하는 컨셉의 앱입니다.
+
+## Getting Started
 
 > **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+### Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
@@ -18,11 +20,11 @@ npm start
 yarn start
 ```
 
-## Step 2: Start your Application
+### Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+Let Metro Bundler run in its own terminal. Open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
 
-### For Android
+For Android
 
 ```bash
 # using npm
@@ -32,7 +34,7 @@ npm run android
 yarn android
 ```
 
-### For iOS
+For iOS
 
 ```bash
 # using npm
@@ -42,38 +44,29 @@ npm run ios
 yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### App Screens
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## 메인페이지
 
-## Step 3: Modifying your App
+![메인페이지](https://user-images.githubusercontent.com/84447486/177532561-8a6ff637-e2b6-4687-a582-253ad21fc6cf.jpg)
 
-Now that you have successfully run the app, let's modify it.
+> 사용자 주변의 포켓몬빵 재고를 표시합니다.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## 도감
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+![도감](https://user-images.githubusercontent.com/84447486/177533110-86561e71-ff08-4489-a68c-604aa332f575.jpg)
 
-## Congratulations! :tada:
+## 거래소
 
-You've successfully run and modified your React Native App. :partying_face:
+![거래소](https://user-images.githubusercontent.com/84447486/177533311-47b85b30-a691-4721-8a75-32f65a80e0c1.jpg)
 
-### Now what?
+> 포켓몬 스티커의 실시간 시세를 조회할 수 있습니다.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+## 자유게시판
 
-# Troubleshooting
+![자유게시판](https://user-images.githubusercontent.com/84447486/177533409-2e18c8f1-f067-438b-ba3b-543d6677eaee.jpg)
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+## 마이페이지
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+![마이페이지1](https://user-images.githubusercontent.com/84447486/177533529-e42b5652-ff68-4e9f-b0ce-01a26aeb63b2.jpg)
+![마이페이지2](https://user-images.githubusercontent.com/84447486/177533573-61f42dcc-5a42-46fb-bd22-aff7fdbb0d03.jpg)
