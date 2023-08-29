@@ -19,7 +19,6 @@ export default function Forum() {
   useEffect(() => {
     getItem('posts')
       .then(post => {
-        console.log(post);
         setPosts([...JSON.parse(post)]);
       })
       .catch(error => console.log(error));

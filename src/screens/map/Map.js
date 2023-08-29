@@ -1,11 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
-import {
-  StyleSheet,
-  View,
-  TouchableOpacity,
-  ImageBackground,
-  Linking,
-} from 'react-native';
+import {StyleSheet, View, TouchableOpacity, Linking} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import {check, PERMISSIONS, request} from 'react-native-permissions';
 import TextWrap from '../../components/text-wrap/TextWrap';
@@ -15,15 +9,11 @@ import Geolocation from '@react-native-community/geolocation';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import {Bubble} from '../../libs/images';
 import StockMarker from './StockMarker';
 import colors from '../../libs/colors';
-import {shallowEqual, useSelector} from 'react-redux';
 
 export default function Map() {
   const mapRef = useRef();
-  const user = useSelector(s => s.user, shallowEqual);
-  console.log('map', user);
   const [lat, setLat] = useState();
   const [lng, setLng] = useState();
   const [latitudeDelta, setLatitudeDelta] = useState(0.005);
@@ -46,14 +36,14 @@ export default function Map() {
   };
 
   const navigateMyLocation = () => {
-    let m = isIos
+    let permissions = isIos
       ? PERMISSIONS.IOS.LOCATION_WHEN_IN_USE
       : PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION;
 
-    check(m)
+    check(permissions)
       .then(async result => {
         if (result !== 'granted') {
-          result = await request(m);
+          result = await request(permissions);
         }
         if (result !== 'granted') {
           throw '위치 권한을 허용해주세요.';
