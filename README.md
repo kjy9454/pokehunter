@@ -84,3 +84,5 @@ yarn ios
    <img src="https://user-images.githubusercontent.com/84447486/177533529-e42b5652-ff68-4e9f-b0ce-01a26aeb63b2.jpg" width="300"  alt="마이페이지" />
    <img src="https://user-images.githubusercontent.com/84447486/177533573-61f42dcc-5a42-46fb-bd22-aff7fdbb0d03.jpg" width="300"  alt="마이페이지" />
 </div>
+
+> 내 정보를 확인하고, 이름, 프로필 이미지를 변경할 수 있습니다.
